@@ -4,8 +4,7 @@ import shutil
 from typing import Any, List
 from pydantic import BaseModel
 
-from rasa.nlu.utils import write_json_to_file
-from rasa.shared.utils.io import read_json_file
+from utils import write_json_to_file, read_json_file
 
 ORIGIN_DB_PATH = "db"
 CONTACTS = "contacts.json"
