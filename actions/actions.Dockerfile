@@ -20,5 +20,5 @@ EXPOSE 5055
 
 # Command to run when the container starts
 USER 1001
-CMD ["run", "actions", "--debug"]
-# CMD ["start", "--actions", "actions"]
+# CMD ["run", "actions", "--debug"]
+CMD ["start", "--actions", "actions"]
